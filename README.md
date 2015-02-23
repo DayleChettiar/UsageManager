@@ -1,7 +1,13 @@
 # This application allows us to manage usage information for a particular user.
 
-## First run the scriptSQL.sql file: 
-    From the command line, run the 'scriptSQL.sql' file as follows:
+## First, get UsageManager locally
+```
+	git clone https://github.com/DayleChettiar/UsageManager.git
+```
+
+## Then, run the scriptSQL.sql file: 
+
+From the command line, run the 'scriptSQL.sql' file as follows:
 ```
     >> source <path to the scriptSQL.sql file>/scriptSQL.sql 
 ```
@@ -16,7 +22,6 @@ This inserts values into a database named 'UserUsage' and a table named 'User' i
 
 ## Running UsageManager locally
 ```
-	git clone https://github.com/DayleChettiar/UsageManager.git
 	mvn tomcat7:run
 ```
 
